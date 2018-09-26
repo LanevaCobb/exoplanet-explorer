@@ -31,7 +31,7 @@ Note: At the time of writing Crisper does not generate the sourcemaps. Your app 
 
  - [ragingwind/gulp-crisper#4](https://github.com/ragingwind/gulp-crisper/issues/4)
  - [PolymerLabs/crisper#14](https://github.com/PolymerLabs/crisper/issues/14)
- 
+
 
 ## Integrating the transpile task
 
@@ -62,7 +62,7 @@ gulp.task('default', ['clean'], function (cb) {
         ['elements', 'js'],
 
   ...
-  
+
 });
 ```
 
@@ -99,8 +99,8 @@ gulp.task('html', function () {
   "esnext": true,
   "node": true,
   "browser": true,
-  
+
   ...
-  
+
 }
 ```
